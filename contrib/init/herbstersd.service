@@ -1,0 +1,22 @@
+[Unit]
+Description=herbsters's distributed currency daemon
+After=network.target
+
+[Service]
+User=herbsters
+Group=herbsters
+
+Type=forking
+PIDFile=/var/lib/herbstersd/herbstersd.pid
+ExecStart=/usr/bin/herbstersd -daemon -pid=/var/lib/herbstersd/herbstersd.pid \
+-conf=/etc/herbsters/herbsters.conf -datadir=/var/lib/herbstersd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

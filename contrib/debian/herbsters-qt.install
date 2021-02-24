@@ -1,0 +1,6 @@
+usr/local/bin/herbsters-qt usr/bin
+share/pixmaps/herbsters32.xpm usr/share/pixmaps
+share/pixmaps/herbsters16.xpm usr/share/pixmaps
+share/pixmaps/herbsters128.png usr/share/pixmaps
+debian/herbsters-qt.desktop usr/share/applications
+debian/herbsters-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=herbsters Core
+Comment=Connect to the herbsters P2P Network
+Comment[de]=Verbinde mit dem herbsters peer-to-peer Netzwerk
+Comment[fr]=herbsters, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=herbsters, eşten eşe kriptografik sanal para birimi
+Exec=herbsters-qt %u
+Terminal=false
+Type=Application
+Icon=herbsters128
+MimeType=x-scheme-handler/herbsters;
+Categories=Office;Finance;
