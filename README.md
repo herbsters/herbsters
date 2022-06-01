@@ -83,31 +83,51 @@ source ~/.profile
 vi /home/USERNAME/.herbsters/herbsters.conf
 
 server=1
+
 txindex=1
+
 rpcuser=YOURUSER
+
 rpcpassword=YOURSECRETPASSWORD
+
 rpcport=7998
+
 port=7999
+
 rpcbind=0.0.0.0
+
 rpcallowip=0.0.0.0/0
+
 rpcallowip=127.0.0.1
+
 rpcallowip=YOUR_IP_ADDRESS
+
 daemon=1
+
 gen=1
+
 listen=1
 
 # Application: Start & Controls
 
 herbstersd -deprecatedrpc=accounts -daemon
+
 herbsters-cli getinfo
+
 herbsters-cli getbalance
+
 herbsters-cli getblocktemplate
+
 herbsters-cli getaccountaddress ""
+
 herbsters-cli sendtoaddress "ADDRESS" AMOUNT
+
 herbsters-cli move "#" "" AMOUNT
 
 ###########################################
+
 Required: Start Here First on Fresh Install
+
 ###########################################
 
 # Update Repository Source
@@ -172,7 +192,9 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 sudo apt-get install libdb-dev libdb++-dev
 
 ########################################
+
 NOW Compile herbsters from github source
+
 ########################################
 
 For more information Please visit:
