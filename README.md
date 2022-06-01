@@ -140,23 +140,40 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 # Option #2
 
-sudo apt-get install libdb-dev libdb++-devUpdate Repository Source
-# sudo apt-get update
-Github & Packages
-# sudo apt-get install git
-# sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libseccomp-dev libcap-dev
-Add Universe & Boost
-# sudo add-apt-repository universe
-# sudo apt-get update
-# sudo apt-get install libboost-all-dev
-Berkeley Database
-Option #1
-# sudo add-apt-repository ppa:bitcoin/bitcoin
-# sudo apt-get update
-# sudo apt-get install libdb4.8-dev libdb4.8++-dev
-Option #2
-# sudo apt-get install libdb-dev libdb++-dev
+sudo apt-get install libdb-dev libdb++-dev
+
+# Update Repository Source
+
+sudo apt-get update
+
+# Github & Packages
+
+sudo apt-get install git
+
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libseccomp-dev libcap-dev
+
+# Add Universe & Boost
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt-get install libboost-all-dev
+
+# Berkeley Database
+
+# Option #1
+
+sudo add-apt-repository ppa:bitcoin/bitcoin
+
+sudo apt-get update
+
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+
+# Option #2
+
+sudo apt-get install libdb-dev libdb++-dev
 
 ########################################
 NOW Compile herbsters from github source
 ########################################
+
+For more information Please visit:
+http://crypto.location.best/index.php?e=software
