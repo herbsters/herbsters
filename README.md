@@ -1,22 +1,20 @@
 Herbsters Cryptocurrency
 ========================
-Download Source & Install
-
-Works on Windows and Linux and Android
+Download Source & Install works on Windows and Linux and Android
 
 Home Page: http://herbsters.com
 
-Web Wallet; http://herbswallet.com
+Web Wallet: http://herbswallet.com
+
+Mining Pool: http://pool.herbsters.com
+
+Block Explorer: http://explorer.herbsters.com
 
 Android App in the Play Store: HerbsWallet
 
 Faucet: http://herbsfaucet.com
 
-Block Explorer: http://explorer.herbsters.com
-
 API Data: http://api.herbsters.com
-
-Mining Pool: http://pool.herbsters.com
 
 Casino: http://herbscasino.com
 
