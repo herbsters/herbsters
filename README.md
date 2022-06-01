@@ -4,19 +4,19 @@ Download Source & Install works on Windows and Linux and Android
 
 Home Page: http://herbsters.com
 
-Web Wallet: http://herbswallet.com
+Web Wallet - Receive and Withdraw: http://herbswallet.com
 
-Mining Pool: http://pool.herbsters.com
+Mining Pool - Stratum : USB, ASIC: http://pool.herbsters.com
 
-Block Explorer: http://explorer.herbsters.com
+Block Explorer - Height, TX, Address: http://explorer.herbsters.com
 
 Android App in the Play Store: HerbsWallet
 
-Faucet: http://herbsfaucet.com
+Faucet - Earn 0.125 HERBS; refill hourly: http://herbsfaucet.com
 
-API Data: http://api.herbsters.com
+API Data - Latest Statistics: http://api.herbsters.com
 
-Casino: http://herbscasino.com
+Casino - Bonus, Claim, Roulette, BlackJack, Poker, Slots: http://herbscasino.com
 
 What is herbsters?
 ----------------
