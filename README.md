@@ -1,8 +1,10 @@
 Herbsters Cryptocurrency
 ========================
 Download Source & Install
-Works on Windows and Linux and Android•••••••••
-Home Page: http://herbsters.com•••••••••
+
+Works on Windows and Linux and Android
+
+Home Page: http://herbsters.com
 
 Web Wallet; http://herbswallet.com
 
