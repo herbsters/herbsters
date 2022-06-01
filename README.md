@@ -1,6 +1,6 @@
-Herbsters Cryptocurrency
+Herbsters - HERBS
 ========================
-Download Source & Install works on Windows and Linux and Android
+Install Tutorials & Download Source on Windows and Linux and Android
 
 Home Page: http://herbsters.com
 
@@ -49,5 +49,7 @@ Windows: Working
 Linux: Working
 
 Macintosh: Unknown
+
+Android: Working
 
 For more information and source downloads and instructions visit http://herbsters.com
