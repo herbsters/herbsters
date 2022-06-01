@@ -1,7 +1,8 @@
 Herbsters Cryptocurrency
 ========================
-
-Home Page: http://herbsters.com
+Download Source & Install
+Works on Windows and Linux and Android•••••••••
+Home Page: http://herbsters.com•••••••••
 
 Web Wallet; http://herbswallet.com
 
@@ -11,9 +12,7 @@ Faucet: http://herbsfaucet.com
 
 Block Explorer: http://explorer.herbsters.com
 
-Download Source & Install: http://herbsters.com/index.php?action&pg=download
-
-Statistics: http://herbsters.com/index.php?action&pg=statistics
+API Data: http://api.herbsters.com
 
 Mining Pool: http://pool.herbsters.com
 
