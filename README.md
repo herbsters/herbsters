@@ -78,7 +78,7 @@ export PATH=$PATH:/home/USERNAME/herbsters/src
 
 source ~/.profile
 
-# onfiguration File
+# Configuration File
 
 vi /home/USERNAME/.herbsters/herbsters.conf
 
