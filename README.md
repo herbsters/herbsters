@@ -59,7 +59,7 @@ For more information and source downloads and instructions visit http://herbster
 #                      #
 
 # download and compile
-# scroll down the page and install the requirements first
+# first install the requirements scroll down
 
 git clone http://github.com/herbsters/herbsters.git
 
