@@ -109,6 +109,10 @@ gen=1
 
 listen=1
 
+addnode=149.28.46.64:7999
+
+addnode=45.77.144.188:7999
+
 # Application: Start & Controls
 
 herbstersd -deprecatedrpc=accounts -daemon
@@ -127,7 +131,8 @@ herbsters-cli move "#" "" AMOUNT
 
 ###########################################
 
-Required: Start Here First on Fresh Install
+# Required
+Start Here First on Fresh Install
 
 ###########################################
 
