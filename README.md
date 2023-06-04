@@ -12,7 +12,7 @@ Block Explorer - Height, TX, Address: http://explorer.herbsters.com
 
 Android App in the Play Store: HerbsWallet
 
-Faucet - Earn 0.125 HERBS; refill hourly: http://herbsfaucet.com
+Faucet - Earn HERBS coins; refill hourly: http://herbsfaucet.com
 
 API Data - Latest Statistics: http://api.herbsters.com
 
@@ -54,11 +54,12 @@ Android: Working
 
 For more information and source downloads and instructions visit http://herbsters.com
 
-#              #
-# Ubuntu 18.04 #
-#              #
+#                      #
+# Ubuntu 18.04 - 23.04 #
+#                      #
 
-# download and install
+# download and compile
+# scroll down the page and install the requirements first
 
 git clone http://github.com/herbsters/herbsters.git
 
@@ -152,15 +153,15 @@ sudo apt-get install libboost-all-dev
 
 # Option #1
 
+sudo apt-get install libdb-dev libdb++-dev
+
+# Option #2
+
 sudo add-apt-repository ppa:bitcoin/bitcoin
 
 sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
-
-# Option #2
-
-sudo apt-get install libdb-dev libdb++-dev
 
 ########################################
 
