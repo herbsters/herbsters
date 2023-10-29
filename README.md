@@ -170,7 +170,7 @@ herbsters-cli getblocktemplate
 
 herbsters-cli getaccountaddress ""
 
-herbsters-cli sendtoa679766ddress "ADDRESS" AMOUNT
+herbsters-cli sendtoaddress "ADDRESS" AMOUNT
 
 herbsters-cli move "#" "" AMOUNT
 
