@@ -58,8 +58,53 @@ For more information and source downloads and instructions visit http://herbster
 # Ubuntu 18.04 - 23.04 #
 #                      #
 
-# download and compile
-# first install the requirements scroll down
+# first install the requirements
+# then download and compile
+
+###########################################
+
+# Required
+Start Here First on Fresh Install
+
+###########################################
+
+# Update Repository Source
+
+sudo apt-get update
+
+# Github & Packages
+
+sudo apt-get install git
+
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libseccomp-dev libcap-dev
+
+# Add Universe & Boost
+
+sudo add-apt-repository universe
+
+sudo apt-get update
+
+sudo apt-get install libboost-all-dev
+
+# Berkeley Database
+
+# Option #1
+
+sudo apt-get install libdb-dev libdb++-dev
+
+# Option #2
+
+sudo add-apt-repository ppa:bitcoin/bitcoin
+
+sudo apt-get update
+
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+
+########################################
+
+NOW Compile herbsters from github source
+
+########################################
 
 git clone http://github.com/herbsters/herbsters.git
 
@@ -125,54 +170,9 @@ herbsters-cli getblocktemplate
 
 herbsters-cli getaccountaddress ""
 
-herbsters-cli sendtoaddress "ADDRESS" AMOUNT
+herbsters-cli sendtoa679766ddress "ADDRESS" AMOUNT
 
 herbsters-cli move "#" "" AMOUNT
-
-###########################################
-
-# Required
-Start Here First on Fresh Install
-
-###########################################
-
-# Update Repository Source
-
-sudo apt-get update
-
-# Github & Packages
-
-sudo apt-get install git
-
-sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libseccomp-dev libcap-dev
-
-# Add Universe & Boost
-
-sudo add-apt-repository universe
-
-sudo apt-get update
-
-sudo apt-get install libboost-all-dev
-
-# Berkeley Database
-
-# Option #1
-
-sudo apt-get install libdb-dev libdb++-dev
-
-# Option #2
-
-sudo add-apt-repository ppa:bitcoin/bitcoin
-
-sudo apt-get update
-
-sudo apt-get install libdb4.8-dev libdb4.8++-dev
-
-########################################
-
-NOW Compile herbsters from github source
-
-########################################
 
 For more information Please visit:
 http://crypto.location.best/index.php?e=software
