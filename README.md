@@ -55,7 +55,7 @@ Android: Working
 For more information and source downloads and instructions visit http://herbsters.com
 
 #                      #
-# Ubuntu 18.04 - 23.04 #
+# Ubuntu 18.04 - 20.04 #
 #                      #
 
 # first install the requirements
@@ -81,6 +81,8 @@ sudo apt-get install build-essential libtool autotools-dev automake pkg-config l
 # Add Universe & Boost
 
 sudo add-apt-repository universe
+
+sudo add-apt-repository multiverse
 
 sudo apt-get update
 
@@ -116,6 +118,30 @@ cd herbsters
 
 make
 
+#############################################
+DEBUG: On Ubuntu 20.04 + and make errors
+Lib Boost Version 1.54
+#############################################
+
+sudo apt-get update
+
+sudo apt-get -y --purge remove libboost-all-dev libboost-doc libboost-dev
+
+sudo rm -f /usr/lib/libboost_*
+
+sudo apt-get -y install build-essential g++ autotools-dev libicu-dev libbz2-dev
+
+wget http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.gz
+
+tar -zxvf boost_1_54_0.tar.gz
+
+cd boost_1_54_0
+
+./bootstrap.sh
+
+sudo ./b2 --with=all -j 2 install
+
+#############################################
 # path directory
 
 vi ~/.profile
