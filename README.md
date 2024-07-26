@@ -201,4 +201,4 @@ herbsters-cli sendtoaddress "ADDRESS" AMOUNT
 herbsters-cli move "#" "" AMOUNT
 
 For more information Please visit:
-http://crypto.location.best/index.php?e=software
+http://herbsters.com
