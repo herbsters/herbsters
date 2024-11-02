@@ -139,6 +139,7 @@ cd herbsters
 ./autogen.sh
 
 ./configure --with-incompatible-bdb
+./configure --with-incompatible-bdb --with-boost-libdir=/usr/lib/x86_64-linux-gnu/
 
 make
 
