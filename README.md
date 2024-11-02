@@ -55,7 +55,7 @@ Android: Working
 For more information and source downloads and instructions visit http://herbsters.com
 
 #                      #
-# Ubuntu 18.04 - 20.04 #
+# Ubuntu 18.04 - 22.04 #
 #                      #
 
 # first install the requirements
@@ -101,6 +101,30 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
+
+# Option #3 - Build from Source
+
+wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+
+sudo tar -xzvf db-4.8.30.NC.tar.gz
+
+sed -i 's/__atomic_compare_exchange/__atomic_compare_exchange_db/g' db-4.8.30.NC/dbinc/atomic.h
+
+sudo cd db-4.8.30.NC/build_unix/
+
+sudo ../dist/configure --enable-cxx
+
+sudo make
+
+sudo make install
+
+# Tell Your System Where to Find Berkeley
+ 
+export BDB_INCLUDE_PATH="/usr/local/BerkeleyDB.4.8/include"
+
+export BDB_LIB_PATH="/usr/local/BerkeleyDB.4.8/lib"
+
+sudo ln -s /usr/local/BerkeleyDB.4.8/lib/libdb-4.8.so /usr/lib/libdb-4.8.so
 
 ########################################
 
